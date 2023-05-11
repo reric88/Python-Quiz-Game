@@ -24,4 +24,15 @@ class Quiz_Brain:
         return self.question_number < len(self.question_list)
 
     # Step 8. Create a method that will check the answer that the user gives
-    def 
+    def check_answer(self, user_answer, correct_answer):
+        # 8a create if/else statement that compares users and the correct answer. Be sure to account for varying cases and users answers
+        if (user_answer.lower().strip() == correct_answer.lower()):
+            # 8b Increase score by 1
+            self.score += 1
+            # 8c And let the user know they are correct
+            print('Correct! 👌')
+        # Create else statement for when the user gets the answer wrong
+        else:
+            print('Incorrect! 😒')
+        # Display the correct answer
+            print(f('The correct answer was: {correct_answer}'))
