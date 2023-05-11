@@ -8,13 +8,13 @@ question_data = [
      "incorrect_answers": ["False"]
      },
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
-     "question": "The programming language &quot;Python&quot; is based off a modified version of "
+     "question": "The programming language `Python` is based off a modified version of "
                  "JavaScript",
      "correct_answer": "False", "incorrect_answers": ["True"]},
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
      "question": "The logo for Snapchat is a Bell.", "correct_answer": "False", "incorrect_answers": ["True"]},
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
-     "question": "&quot;HTML&quot; stands for Hypertext Markup Language.", "correct_answer": "True",
+     "question": "`HTML` stands for Hypertext Markup Language.", "correct_answer": "True",
      "incorrect_answers": ["False"]},
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
      "question": "Time on Computers is measured via the EPOX System.",
@@ -32,6 +32,6 @@ question_data = [
      "question": "Linux was first created as an alternative to Windows XP.", "correct_answer": "False",
      "incorrect_answers": ["True"]},
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
-     "question": "The Python programming language gets its name from the British comedy group &quot;Monty Python.&quot;",
+     "question": "The Python programming language gets its name from the British comedy group `Monty Python.`",
      "correct_answer": "True", "incorrect_answers": ["False"]}
 ]

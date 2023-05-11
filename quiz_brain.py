@@ -16,7 +16,9 @@ class Quiz_Brain:
         # 4d lists start at 0, so to display the correct question number for the next step, increase question number by 1
         self.question_number += 1
         # 4e Show the number_text and ask for the users answer
-        input(f'Q{self.question_number}: {current_question.text}; True/False')
+        user_answer = input(f'\nQ{self.question_number}: {current_question.text}; Answer True/False: ')
+        # 8e When advancing to the next question, check the answer the user gave
+        self.check_answer(user_answer, current_question.answer)
 
     # Step 7? Create a method that advances the questions after the user has answered
     def still_has_question(self):
@@ -34,5 +36,8 @@ class Quiz_Brain:
         # Create else statement for when the user gets the answer wrong
         else:
             print('Incorrect! 😒')
-        # Display the correct answer
-            print(f('The correct answer was: {correct_answer}'))
+            # Display the correct answer
+        print(f'The correct answer was: {correct_answer}')
+        # 8g Display the users score out of how many questions have been asked
+        print(f'You current score is: {self.score}/{self.question_number}')
+        print('\n\n')

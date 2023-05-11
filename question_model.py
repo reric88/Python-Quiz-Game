@@ -11,5 +11,5 @@ class Question:
         self.answer = q_answer
 
 # Test to make sure it is functioning properly
-new_q = Question('Are you ready for this quiz?', 'False')
-print(new_q)
+# new_q = Question('Are you ready for this quiz?', 'False')
+# print(new_q)

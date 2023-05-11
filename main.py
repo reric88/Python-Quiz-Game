@@ -37,3 +37,5 @@ while quiz.still_has_question():
     # 7b Move the quiz.next_question from step 6a into the while loop
     quiz.next_question()
 
+# Step 9: Notify the user when the quiz is complete and show the final score
+print('You have completed the quiz!', f'Your final score was: {quiz.score}/{quiz.question_number}')
