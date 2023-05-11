@@ -16,4 +16,12 @@ class Quiz_Brain:
         # 4d lists start at 0, so to display the correct question number for the next step, increase question number by 1
         self.question_number += 1
         # 4e Show the number_text and ask for the users answer
-        input(f'Q.{self.question_number}: {current_question.text}; True/False')
+        input(f'Q{self.question_number}: {current_question.text}; True/False')
+
+    # Step 7? Create a method that advances the questions after the user has answered
+    def still_has_question(self):
+    # This method will return a boolean
+        return self.question_number < len(self.question_list)
+
+    # Step 8. Create a method that will check the answer that the user gives
+    def 
